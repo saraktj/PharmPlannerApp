@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="69.0" prefWidth="235.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="startscreen.LoginFXMLController">
+    <stylesheets>
+        <URL value="@fxmldocument.css" />
+    </stylesheets>
+   <children>
+      <Text layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The username and/or password entered is incorrect. Please try again or click the forgot password button." textAlignment="CENTER" wrappingWidth="255.05078125" />
+   </children>
+</AnchorPane>

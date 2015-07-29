@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="startscreen.LoginFXMLController">
+    <stylesheets>
+        <URL value="@fxmldocument.css" />
+    </stylesheets>
+   <children>
+      <Text layoutX="218.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Account" wrappingWidth="179.4921875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <VBox layoutX="135.0" layoutY="69.0" prefHeight="266.0" prefWidth="345.0">
+         <children>
+            <TextField prefHeight="25.0" promptText="First Name:">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField promptText="Last Name:">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" />
+               </VBox.margin>
+            </TextField>
+            <ComboBox prefHeight="25.0" prefWidth="304.0" promptText="Occupation">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ComboBox>
+            <TextField promptText="Username:">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField prefHeight="25.0" prefWidth="303.0" promptText="Password:">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Submit" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="100.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
